@@ -1,8 +1,8 @@
 .wrapper
 {
   display: grid;
-  width: 750px;
-  height: 600px;
+  width: 1000px;
+  height: 6000px;
   grid-template-columns: 200px 1fr 1fr;
   grid-template-rows: 80px 1fr 1fr 100px;
   grid-gap: 1rem;
@@ -16,18 +16,24 @@ body {
   align-items: center;
 }
 
+
 .item1 {
   grid-row: 1 / 2;
-  grid-column: 1 / 4;
+  grid-column: 1 / 6;
   background-color: #1EAAFC;
   background-image: url("pix/xkcd_1.png");
+  background-size: auto;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   color: #fff;
   border-radius: 4px;
   border: 6px solid #171717;
+  padding: 10px;
 }
 .item2 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 6;
   background-color: #1EAAFC;
+  background-size: auto;
   background-image: url("pix/xkcd_2.png");
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   color: #fff;
@@ -35,6 +41,8 @@ body {
   border: 6px solid #171717;
 }
 .item3 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 6;
   background-color: #1EAAFC;
   background-image: url("pix/xkcd_3.png");
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -43,6 +51,8 @@ body {
   border: 6px solid #171717;
 }
 .item4 {
+  grid-row: 5 / 6;
+  grid-column: 1 / 6;
   background-color: #1EAAFC;
   background-image: url("pix/xkcd_4.png");
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -51,6 +61,8 @@ body {
   border: 6px solid #171717;
 }
 .item5 {
+  grid-row: 6 / 7;
+  grid-column: 1 / 6;
   background-color: #1EAAFC;
   background-image: url("pix/xkcd_5.png");
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -59,6 +71,8 @@ body {
   border: 6px solid #171717;
 }
 .item6 {
+  grid-row: 7 / 8;
+  grid-column: 1 / 6;
   background-color: #1EAAFC;
   background-image: url("pix/xkcd_6.png");
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
